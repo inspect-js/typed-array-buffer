@@ -37,7 +37,7 @@
 	"homepage": "https://github.com/ljharb/typed-array-buffer#readme",
 	"dependencies": {
 		"call-bind": "^1.0.6",
-		"get-intrinsic": "^1.2.4",
+		"es-errors": "^1.3.0",
 		"is-typed-array": "^1.1.13"
 	},
 	"devDependencies": {
