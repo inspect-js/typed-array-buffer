@@ -35,9 +35,9 @@
 	},
 	"homepage": "https://github.com/ljharb/typed-array-buffer#readme",
 	"dependencies": {
-		"call-bind": "^1.0.2",
-		"get-intrinsic": "^1.2.1",
-		"is-typed-array": "^1.1.10"
+		"call-bind": "^1.0.6",
+		"get-intrinsic": "^1.2.4",
+		"is-typed-array": "^1.1.13"
 	},
 	"devDependencies": {
 		"@ljharb/eslint-config": "^21.1.0",
