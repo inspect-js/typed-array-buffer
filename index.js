@@ -4,6 +4,7 @@ var $TypeError = require('es-errors/type');
 
 var callBound = require('call-bound');
 
+/** @type {undefined | ((thisArg: import('.').TypedArray) => Buffer<ArrayBufferLike>)} */
 var $typedArrayBuffer = callBound('TypedArray.prototype.buffer', true);
 
 var isTypedArray = require('is-typed-array');
