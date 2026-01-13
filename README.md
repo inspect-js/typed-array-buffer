@@ -38,5 +38,5 @@ Simply clone the repo, `npm install`, and run `npm test`
 [downloads-url]: https://npm-stat.com/charts.html?package=typed-array-buffer
 [codecov-image]: https://codecov.io/gh/inspect-js/typed-array-buffer/branch/main/graphs/badge.svg
 [codecov-url]: https://app.codecov.io/gh/inspect-js/typed-array-buffer/
-[actions-image]: https://img.shields.io/endpoint?url=https://github-actions-badge-u3jn4tfpocch.runkit.sh/inspect-js/typed-array-buffer
+[actions-image]: https://img.shields.io/github/check-runs/inspect-js/typed-array-buffer/main
 [actions-url]: https://github.com/inspect-js/typed-array-buffer/actions
