@@ -4,6 +4,6 @@ declare namespace typedArrayBuffer{
 	export type { TypedArray };
 }
 
-declare function typedArrayBuffer(x: typedArrayBuffer.TypedArray): ArrayBuffer;
+declare function typedArrayBuffer(x: typedArrayBuffer.TypedArray): ArrayBufferLike;
 
 export = typedArrayBuffer;

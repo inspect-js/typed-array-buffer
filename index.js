@@ -4,7 +4,8 @@ var $TypeError = require('es-errors/type');
 
 var callBound = require('call-bound');
 
-/** @type {undefined | ((thisArg: import('.').TypedArray) => Buffer<ArrayBufferLike>)} */
+/** @type {((thisArg: import('.').TypedArray) => ArrayBufferLike) | undefined} */
+// @ts-ignore TypedArray is not a global, but it's a valid intrinsic
 var $typedArrayBuffer = callBound('TypedArray.prototype.buffer', true);
 
 var isTypedArray = require('is-typed-array');
